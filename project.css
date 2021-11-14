@@ -11,19 +11,22 @@ main {
   flex-direction: column;
   justify-content: center;
 }
-article {
+
+section {
   /* line-height: 5rem; */
-  width: 600px;
-  column-width: 200px;
-  column-gap: 50px;
+  width: 800px;
+  margin: 0 auto;
+  line-height: 3rem;
 }
 h1 {
   color: wheat;
   font-size: 4rem;
+  margin-bottom: 5px;
 }
 p {
   color: rgb(229, 226, 226);
   font-size: 1.5rem;
+  margin-bottom: 5px;
 }
 a {
   color: turquoise;
@@ -40,7 +43,7 @@ img {
   h1 {
     font-size: 2.5rem;
   }
-  img {
+  section {
     max-width: 350px;
   }
 }
